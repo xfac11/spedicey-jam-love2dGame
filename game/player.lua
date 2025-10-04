@@ -21,21 +21,15 @@ function Player:new()
 end
 
 function Player:update(dt)
-  for k, component in pairs(self.components) do
-    component:update(dt)
-  end
+  Player.super.update(self, dt)
 end
 
 function Player:draw()
-  for k, component in pairs(self.components) do
-    component:draw()
-  end
+  Player.super.draw(self)
 end
 
 function Player:load()
-  for k, component in pairs(self.components) do
-    component:load()
-  end
+  Player.super.load(self)
 end
 
 return Player

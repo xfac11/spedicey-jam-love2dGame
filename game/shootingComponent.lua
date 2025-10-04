@@ -49,6 +49,7 @@ function ShootingComponent:update(dt)
         projTransform.position.y = transform.position.y
         projTransform.rotation = math.atan2(mouse_y - transform.position.y, mouse_x - transform.position.x)
         self.cooldown = self.cooldownTime
+        v.lifetime = 2
         break
       end
     end
@@ -56,6 +57,9 @@ function ShootingComponent:update(dt)
 
   for k, v in pairs(self.projectilePool.container) do
     v:update(dt)
+    if v.lifetime < 0 then
+      v.enabled = false
+    end
   end
 end
 

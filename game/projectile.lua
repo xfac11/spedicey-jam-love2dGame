@@ -10,6 +10,7 @@ function Projectile:new()
   self.direction_x = 0
   self.direction_y = 0
   self.damageNumber = 1
+  self.lifetime = 2
   self.enabled = false
 
   local transform = Transform(self, 0, 0)
@@ -19,27 +20,17 @@ function Projectile:new()
 end
 
 function Projectile:load()
-  for k, component in pairs(self.components) do
-    component:load()
-  end
+  Projectile.super.load(self)
 end
 
 function Projectile:draw()
-  if self.enabled then
-    for k, component in pairs(self.components) do
-      component:draw()
-    end
-  end
-  local transform = self:getComponent("Transform")
-  --love.graphics.print(tostring(self.id), transform.position.x, transform.position.y)
-  love.graphics.print(transform.rotation, transform.position.x, transform.position.y)
+  Projectile.super.draw(self)
 end
 
 function Projectile:update(dt)
+  Projectile.super.update(self, dt)
   if self.enabled then
-    for k, component in pairs(self.components) do
-      component:update(dt)
-    end
+    self.lifetime = self.lifetime - dt
     local transform = self:getComponent("Transform")
     transform:move(self.direction_x * dt * self.speed, self.direction_y * dt * self.speed)
   end
