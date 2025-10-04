@@ -3,6 +3,7 @@ local Projectile = Entity:extend()
 local love = require "love"
 local Transform = require "transform"
 local ImageComponent = require "imageComponent"
+local Timer = require "timer"
 
 function Projectile:new()
   Projectile.super.new(self)
@@ -15,8 +16,15 @@ function Projectile:new()
 
   local transform = Transform(self, 0, 0)
   local imageComponent = ImageComponent(self, "assets/projectile.png")
+  local timer = Timer(self, self.lifetime)
+  timer.oneTime = true
+
   self:addComponent("Transform", transform)
   self:addComponent("ImageComponent", imageComponent)
+  self:addComponent("Timer", timer)
+  self:getComponent("Timer").onTime = function ()
+    self.enabled = false
+  end
 end
 
 function Projectile:load()
@@ -30,7 +38,6 @@ end
 function Projectile:update(dt)
   Projectile.super.update(self, dt)
   if self.enabled then
-    self.lifetime = self.lifetime - dt
     local transform = self:getComponent("Transform")
     transform:move(self.direction_x * dt * self.speed, self.direction_y * dt * self.speed)
   end

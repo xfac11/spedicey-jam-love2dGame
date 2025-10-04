@@ -25,14 +25,14 @@ function love.load()
 end
 
 function love.draw()
-  --push:start()
+  push:start()
   -- Your game draw here
   player:draw()
   local transform = player:getComponent("Transform")
   love.graphics.print(tostring(player.id), transform.position.x, transform.position.y)
   overlayStats.draw() -- Should always be called last
 
-  --push:finish()
+  push:finish()
 end
 
 function love.update(dt)
