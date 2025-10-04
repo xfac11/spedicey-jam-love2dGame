@@ -34,4 +34,5 @@ function EntityContainer:removeEntity(entityID)
   table.remove(self.container, entityIndex)
 end
 
+
 return EntityContainer

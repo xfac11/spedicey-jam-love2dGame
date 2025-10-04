@@ -19,7 +19,7 @@ end
 
 function ImageComponent:draw()
   local transform = self.parent:getComponent("Transform")
-  love.graphics.draw(self.image, transform.position.x, transform.position.y, transform.rotation, 0.5*transform.scale.x, 0.5*transform.scale.y, self.origin_x, self.origin_y)
+  love.graphics.draw(self.image, transform.position.x, transform.position.y, transform.rotation, 0.3*transform.scale.x, 0.3*transform.scale.y, self.origin_x, self.origin_y)
 end
 
 return ImageComponent
