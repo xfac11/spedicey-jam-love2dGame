@@ -44,8 +44,10 @@ function ShootingComponent:update(dt)
         v.direction_x = direction.x
         v.direction_y = direction.y
         local projTransform = v:getComponent("Transform")
+
         projTransform.position.x = transform.position.x
         projTransform.position.y = transform.position.y
+        projTransform.rotation = math.atan2(mouse_y - transform.position.y, mouse_x - transform.position.x)
         self.cooldown = self.cooldownTime
         break
       end

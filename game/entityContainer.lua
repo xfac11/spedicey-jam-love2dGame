@@ -1,5 +1,4 @@
 local Object = require "lib.classic"
-
 local EntityContainer = Object:extend()
 local Projectile = require "projectile"
 function EntityContainer:new()

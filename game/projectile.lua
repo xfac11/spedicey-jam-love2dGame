@@ -1,19 +1,19 @@
 local Entity = require "entity"
 local Projectile = Entity:extend()
-
+local love = require "love"
 local Transform = require "transform"
 local ImageComponent = require "imageComponent"
 
 function Projectile:new()
   Projectile.super.new(self)
-  self.speed = 500
+  self.speed = 1000
   self.direction_x = 0
   self.direction_y = 0
   self.damageNumber = 1
   self.enabled = false
 
   local transform = Transform(self, 0, 0)
-  local imageComponent = ImageComponent(self, "assets/enemy.png")
+  local imageComponent = ImageComponent(self, "assets/projectile.png")
   self:addComponent("Transform", transform)
   self:addComponent("ImageComponent", imageComponent)
 end
@@ -31,7 +31,8 @@ function Projectile:draw()
     end
   end
   local transform = self:getComponent("Transform")
-  love.graphics.print(tostring(self.id), transform.position.x, transform.position.y)
+  --love.graphics.print(tostring(self.id), transform.position.x, transform.position.y)
+  love.graphics.print(transform.rotation, transform.position.x, transform.position.y)
 end
 
 function Projectile:update(dt)

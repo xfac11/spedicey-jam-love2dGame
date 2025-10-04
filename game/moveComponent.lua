@@ -1,6 +1,6 @@
 local object = require "lib.classic"
 local Component = require "component"
-
+local love = require "love"
 local MoveComponent = Component:extend()
 
 function MoveComponent:new(parent)
