@@ -40,9 +40,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="909.6304"
-     inkscape:cx="566.44295"
-     inkscape:zoom="0.98994949"
+     inkscape:cy="271.28975"
+     inkscape:cx="502.66711"
+     inkscape:zoom="1.4"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -176,8 +176,11 @@
        cy="231.7227"
        r="1.3363476" />
     <path
-       inkscape:transform-center-y="1.9235477"
-       inkscape:transform-center-x="-4.2582769"
+       inkscape:export-ydpi="105.59"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\enemy.png"
+       inkscape:transform-center-y="-0.013017579"
+       inkscape:transform-center-x="-7.0948246"
        d="m 187.08867,103.70058 -39.44589,13.15239 8.33263,-40.737345 z"
        inkscape:randomized="0"
        inkscape:rounded="0"
@@ -192,7 +195,7 @@
        id="path1815"
        style="opacity:1;fill:#f53b57;fill-opacity:1;stroke:#1e272e;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        sodipodi:type="star"
-       transform="rotate(99.218417,178.91191,74.97774)" />
+       transform="matrix(-0.37618344,0.80613006,-1.1234499,-0.26992996,332.63073,-46.090973)" />
     <rect
        inkscape:export-ydpi="105.59"
        inkscape:export-xdpi="105.59"
