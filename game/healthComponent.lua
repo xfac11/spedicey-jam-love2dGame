@@ -21,11 +21,13 @@ function HealthComponent:getMaxHealth()
 end
 
 function HealthComponent:decreaseHealth(amount)
-  self.currentHealth = math.max(self.currentHealth - amount, 0)
-  self.onDamage()
-  if self.currentHealth == 0 then
-    self.isDead = true
-    self.onDeath()
+  if not self.isDead then
+    self.currentHealth = math.max(self.currentHealth - amount, 0)
+    self.onDamage()
+    if self.currentHealth == 0 then
+      self.isDead = true
+      self.onDeath()
+    end
   end
 end
 

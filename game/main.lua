@@ -25,6 +25,7 @@ local windowWidth, windowHeight = love.window.getDesktopDimensions()
 
 push:setupScreen(gameWidth, gameHeight, windowWidth, windowHeight, {fullscreen = true})
 
+local function dist(x1,y1, x2,y2) return ((x2-x1)^2+(y2-y1)^2)^0.5 end
 
 
 
@@ -105,6 +106,32 @@ function love.update(dt)
       end
     end
   end
+
+  if player.tryRevive then
+    local enemiesCaught = 0
+    local enemiesCaughtIndex = {}
+    for k, enemy in pairs(enemyContainer.container) do
+      local enemyTransform = enemy:getComponent("Transform")
+      local playerTransform = player:getComponent("Transform")
+      local enemy_x = enemyTransform.position.x
+      local enemy_y = enemyTransform.position.y
+      local player_x = playerTransform.position.x
+      local player_y = playerTransform.position.y
+      local distance = dist(player_x, player_y, enemy_x, enemy_y)
+      if distance < 50 then
+        enemiesCaught = enemiesCaught + 1
+        table.insert(enemiesCaughtIndex, enemy.id)
+      end
+    end
+    player.tryRevive = false
+    for k, v in pairs(enemiesCaughtIndex) do
+      enemyContainer:removeEntity(v)
+    end
+    if enemiesCaught > 2 then
+      player:revive()
+    end
+  end
+
   overlayStats.update(dt) -- Should always be called last
 end
 
