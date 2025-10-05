@@ -5,50 +5,74 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="drawing.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="drawing.svg">
   <defs
      id="defs2">
-    <filter
-       height="1.5537192"
-       y="-0.27685961"
-       width="1.0907484"
-       x="-0.045374215"
-       id="filter1021"
-       style="color-interpolation-filters:sRGB"
+    <linearGradient
+       id="linearGradient902"
        inkscape:collect="always">
+      <stop
+         id="stop898"
+         offset="0"
+         style="stop-color:#1cffef;stop-opacity:1" />
+      <stop
+         id="stop900"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1021"
+       x="-0.045374215"
+       width="1.0907484"
+       y="-0.27685961"
+       height="1.5537192">
       <feGaussianBlur
-         id="feGaussianBlur1023"
+         inkscape:collect="always"
          stdDeviation="0.45476792"
-         inkscape:collect="always" />
+         id="feGaussianBlur1023" />
     </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.91834857,0,11.937148)"
+       r="4.9099469"
+       fy="146.19644"
+       fx="123.87943"
+       cy="146.19644"
+       cx="123.87943"
+       id="radialGradient904"
+       xlink:href="#linearGradient902"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="69"
-     inkscape:window-x="347"
-     inkscape:window-height="967"
-     inkscape:window-width="1375"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="271.28975"
-     inkscape:cx="502.66711"
-     inkscape:zoom="1.4"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="471.05187"
+     inkscape:cy="580.65843"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1375"
+     inkscape:window-height="967"
+     inkscape:window-x="347"
+     inkscape:window-y="69"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -62,161 +86,190 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <rect
-       y="-2.6726952"
-       x="-5.3453903"
-       height="312.17081"
-       width="229.85179"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect1434"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       width="229.85179"
+       height="312.17081"
+       x="-5.3453903"
+       y="-2.6726952" />
     <g
-       inkscape:transform-center-y="0.44374996"
-       inkscape:transform-center-x="-1.9741347"
-       inkscape:export-ydpi="105.59"
-       inkscape:export-xdpi="105.59"
-       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\laserPipeOnly.png"
+       id="g1056"
        transform="matrix(1.3581542,4.2839932e-4,-3.8117663e-4,1.5264114,0.18307903,-116.46668)"
-       id="g1056">
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\laserPipeOnly.png"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-ydpi="105.59"
+       inkscape:transform-center-x="-1.9741347"
+       inkscape:transform-center-y="0.44374996">
       <rect
-         style="fill:#8b8e90;fill-opacity:1;stroke:#808e9b;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="rect1040"
-         width="32.255013"
-         height="5.3346243"
-         x="102.33091"
-         y="248.68491"
-         ry="2.642544"
+         rx="1.5083361"
          transform="rotate(0.05971584)"
-         rx="1.5083361" />
+         ry="2.642544"
+         y="248.68491"
+         x="102.33091"
+         height="5.3346243"
+         width="32.255013"
+         id="rect1040"
+         style="fill:#8b8e90;fill-opacity:1;stroke:#808e9b;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
       <ellipse
-         style="fill:#000000;fill-opacity:1;stroke:#090b0b;stroke-width:0.69555;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-         id="path1046"
-         cx="133.1311"
-         cy="251.61841"
+         ry="2.3091023"
          rx="0.88064843"
-         ry="2.3091023" />
+         cy="251.61841"
+         cx="133.1311"
+         id="path1046"
+         style="fill:#000000;fill-opacity:1;stroke:#090b0b;stroke-width:0.69555;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     </g>
-    <circle
-       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\player.png"
-       inkscape:export-ydpi="105.59"
-       inkscape:export-xdpi="105.59"
-       r="30.498617"
-       cy="184.64043"
-       cx="111.48074"
-       id="path851"
-       style="opacity:1;fill:#0fbcf9;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <path
        inkscape:export-ydpi="105.59"
        inkscape:export-xdpi="105.59"
-       transform="matrix(0.79154041,0.61192635,-0.6112628,0.79153893,49.335514,181.46216)"
-       inkscape:transform-center-y="-2.2364827"
-       inkscape:transform-center-x="3.9551816"
-       d="M 57.730222,62.00653 18.284323,75.158927 26.616963,34.421579 Z"
-       inkscape:randomized="0"
-       inkscape:rounded="0"
-       inkscape:flatsided="true"
-       sodipodi:arg2="1.2489599"
-       sodipodi:arg1="0.20176234"
-       sodipodi:r2="12.003348"
-       sodipodi:r1="24.006697"
-       sodipodi:cy="57.195679"
-       sodipodi:cx="34.210503"
-       sodipodi:sides="3"
-       id="path1432"
-       style="opacity:1;fill:#f53b57;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       sodipodi:type="star" />
-    <circle
-       r="1.3363476"
-       cy="121.60764"
-       cx="152.6109"
-       id="path1450"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="circle1452"
-       cx="143.52374"
-       cy="78.309982"
-       r="1.3363476" />
-    <circle
-       r="1.3363476"
-       cy="121.0731"
-       cx="70.826431"
-       id="circle1454"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="circle1456"
-       cx="107.17509"
-       cy="51.583019"
-       r="1.3363476" />
-    <circle
-       r="1.3363476"
-       cy="121.60764"
-       cx="102.89877"
-       id="circle1458"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="circle1460"
-       cx="49.444866"
-       cy="265.9332"
-       r="1.3363476" />
-    <circle
-       r="1.3363476"
-       cy="160.09447"
-       cx="28.063305"
-       id="circle1462"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
-    <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       id="circle1464"
-       cx="186.28687"
-       cy="231.7227"
-       r="1.3363476" />
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\playerPartLeft.png"
+       d="m 33.141638,148.20297 26.08523,-9.87691 -20.99097,-17.41289 c -4.53052,5.74969 -6.86461,13.10418 -6.38048,20.41322 0.14115,2.3425 0.5995,4.64559 1.28622,6.87658 z"
+       style="opacity:1;fill:#0fbcf9;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path851" />
     <path
        inkscape:export-ydpi="105.59"
        inkscape:export-xdpi="105.59"
-       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\enemy.png"
-       inkscape:transform-center-y="-0.013017579"
-       inkscape:transform-center-x="-7.0948246"
-       d="m 187.08867,103.70058 -39.44589,13.15239 8.33263,-40.737345 z"
-       inkscape:randomized="0"
-       inkscape:rounded="0"
-       inkscape:flatsided="true"
-       sodipodi:arg2="1.2489599"
-       sodipodi:arg1="0.20176234"
-       sodipodi:r2="12.003348"
-       sodipodi:r1="24.006697"
-       sodipodi:cy="98.889725"
-       sodipodi:cx="163.56895"
-       sodipodi:sides="3"
-       id="path1815"
-       style="opacity:1;fill:#f53b57;fill-opacity:1;stroke:#1e272e;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\playerPartRight.png"
+       d="m 146.30232,200.47723 -11.85819,-29.64522 -0.77309,0.33538 -26.08522,9.87692 c 1.69121,5.49433 4.92765,10.50055 9.38702,14.2105 6.23017,5.25607 14.63287,7.76482 22.70146,6.78615 2.26571,-0.25727 4.48854,-0.79639 6.62802,-1.56373 z"
+       style="opacity:1;fill:#0fbcf9;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path865" />
+    <path
+       inkscape:export-ydpi="105.59"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\playerPartBot.png"
+       d="m 162.81036,158.52837 -28.36623,12.30364 11.85819,29.64522 c 3.94826,-1.41608 7.60091,-3.64394 10.63243,-6.55567 5.88281,-5.58266 9.29314,-13.61137 9.24388,-21.72219 -0.0144,-4.76291 -1.18298,-9.44969 -3.36827,-13.671 z"
+       style="opacity:1;fill:#0fbcf9;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path875" />
+    <path
+       inkscape:export-ydpi="105.59"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\playerPartTop.png"
+       d="m 44.025152,58.966476 c -8.07504,0.10429 -16.079762,3.67729 -21.553724,9.69915 -0.5146,0.55732 -0.98268,1.15133 -1.45056,1.74512 l 20.990964,17.412896 29.13931,-12.639026 c -0.0745,-0.1439 -0.12618,-0.29752 -0.20309,-0.44029 -3.82657,-7.20344 -10.755,-12.69768 -18.67586,-14.77119 -2.67178,-0.712 -5.4592,-1.0576 -8.24704,-1.00666 z"
+       style="opacity:1;fill:#0fbcf9;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path870" />
+    <path
        sodipodi:type="star"
-       transform="matrix(-0.37618344,0.80613006,-1.1234499,-0.26992996,332.63073,-46.090973)" />
-    <rect
-       inkscape:export-ydpi="105.59"
+       style="opacity:1;fill:#f53b57;fill-opacity:1;stroke:#808e9b;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1432"
+       sodipodi:sides="3"
+       sodipodi:cx="34.210503"
+       sodipodi:cy="57.195679"
+       sodipodi:r1="24.006697"
+       sodipodi:r2="12.003348"
+       sodipodi:arg1="0.20176234"
+       sodipodi:arg2="1.2489599"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 57.730222,62.00653 18.284323,75.158927 26.616963,34.421579 Z"
+       inkscape:transform-center-x="4.5211946"
+       inkscape:transform-center-y="1.6471163"
+       transform="matrix(0.55465171,0.83267734,-0.83204807,0.55486223,80.210245,171.52885)"
        inkscape:export-xdpi="105.59"
-       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\projectile.png"
-       transform="matrix(0.57393377,0.31735964,-0.11871713,0.21469577,115.03728,100.80725)"
-       y="293.86285"
-       x="115.25999"
-       height="3.9422255"
-       width="24.054256"
+       inkscape:export-ydpi="105.59" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1450"
+       cx="152.6109"
+       cy="121.60764"
+       r="1.3363476" />
+    <circle
+       r="1.3363476"
+       cy="78.309982"
+       cx="143.52374"
+       id="circle1452"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle1454"
+       cx="70.826431"
+       cy="121.0731"
+       r="1.3363476" />
+    <circle
+       r="1.3363476"
+       cy="51.583019"
+       cx="107.17509"
+       id="circle1456"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle1458"
+       cx="102.89877"
+       cy="121.60764"
+       r="1.3363476" />
+    <circle
+       r="1.3363476"
+       cy="265.9332"
+       cx="49.444866"
+       id="circle1460"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <circle
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="circle1462"
+       cx="28.063305"
+       cy="160.09447"
+       r="1.3363476" />
+    <circle
+       r="1.3363476"
+       cy="231.7227"
+       cx="186.28687"
+       id="circle1464"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.389093;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <path
+       transform="matrix(-0.37618344,0.80613006,-1.1234499,-0.26992996,354.13468,48.388131)"
+       sodipodi:type="star"
+       style="opacity:1;fill:#f53b57;fill-opacity:1;stroke:#1e272e;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1815"
+       sodipodi:sides="3"
+       sodipodi:cx="163.56895"
+       sodipodi:cy="98.889725"
+       sodipodi:r1="24.006697"
+       sodipodi:r2="12.003348"
+       sodipodi:arg1="0.20176234"
+       sodipodi:arg2="1.2489599"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 187.08867,103.70058 -39.44589,13.15239 8.33263,-40.737345 z"
+       inkscape:transform-center-x="-7.0948246"
+       inkscape:transform-center-y="-0.013017579"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\enemy.png"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-ydpi="105.59" />
+    <rect
+       style="fill:#0dc405;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1021)"
        id="rect853"
-       style="fill:#0dc405;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1021)" />
+       width="24.054256"
+       height="3.9422255"
+       x="115.25999"
+       y="293.86285"
+       transform="matrix(0.57393377,0.31735964,-0.11871713,0.21469577,115.03728,100.80725)"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\projectile.png"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-ydpi="105.59" />
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke:#808e9b;stroke-width:1.07905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path1058"
+       cx="-31.779667"
+       cy="284.53296"
+       rx="8.4604788"
+       ry="8.4604769"
+       transform="rotate(-28.705624)"
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\laserPipe.png"
+       inkscape:export-xdpi="105.59"
+       inkscape:export-ydpi="105.59" />
     <ellipse
        inkscape:export-ydpi="105.59"
        inkscape:export-xdpi="105.59"
-       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\laserPipe.png"
-       transform="rotate(-28.705624)"
-       ry="8.4604769"
-       rx="8.4604788"
-       cy="284.53296"
-       cx="-31.779667"
-       id="path1058"
-       style="fill:#000000;fill-opacity:1;stroke:#808e9b;stroke-width:1.07905;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       inkscape:export-filename="D:\GitProjekt\spedicey-jam-love2dGame\game\assets\playerCore.png"
+       ry="4.0090427"
+       rx="4.4099469"
+       cy="146.19644"
+       cx="123.87943"
+       id="path878"
+       style="fill:url(#radialGradient904);stroke:#808e9b;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1" />
   </g>
 </svg>

@@ -21,7 +21,7 @@ end
 function EntityContainer:removeEntity(entityID)
   local entityIndex = -1
   for index, entity in pairs(self.container) do
-    if entity.entityID == entityID then
+    if entity.id == entityID then
       entityIndex = index
       break
     end

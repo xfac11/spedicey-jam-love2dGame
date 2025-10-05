@@ -15,6 +15,9 @@ local EntityContainer = require "entityContainer"
 local enemyContainer = EntityContainer()
 for i=1,10 do
   local enemy = Enemy(player, math.random(0,1920), math.random(0,1080))
+  enemy:getComponent("HealthComponent").onDeath = function ()
+    enemyContainer:removeEntity(enemy.id)
+  end
   enemyContainer:addEntity(enemy)
 end
 local gameWidth, gameHeight = 1920, 1080
@@ -48,7 +51,11 @@ function love.load()
     local value = hp:getCurrentHealth() / hp:getMaxHealth()
     testBar:setValue(value)
   end
-
+  player:getComponent("HealthComponent").onHealed = function ()
+    local hp = player:getComponent("HealthComponent")
+    local value = hp:getCurrentHealth() / hp:getMaxHealth()
+    testBar:setValue(value)
+  end
   luis.newLayer("main")
   luis.setCurrentLayer("main")
   luis.insertElement("main", testBar)
@@ -83,10 +90,21 @@ function love.update(dt)
   luis.update(dt)
   -- Your game update here
   player:update(dt)
-  for k, v in pairs(enemyContainer.container) do
-    v:update(dt)
+  local shootingComponent = player:getComponent("ShootingComponent")
+  for k, enemy in pairs(enemyContainer.container) do
+    enemy:update(dt)
+    for i, projectile in pairs(shootingComponent.projectilePool.container) do
+      if projectile.enabled then
+        local enemyBody = enemy:getComponent("BodyComponent")
+        local projectileBody = projectile:getComponent("BodyComponent")
+        local projEnemyCollision = enemyBody:checkCollision(projectileBody)
+        if projEnemyCollision then
+          enemy:getComponent("HealthComponent"):decreaseHealth(10)
+          projectile.enabled = false
+        end
+      end
+    end
   end
-
   overlayStats.update(dt) -- Should always be called last
 end
 
@@ -96,12 +114,11 @@ function love.keypressed(key)
     if luis.currentLayer == "main" then
       love.event.quit()
     end
-  elseif key == "m" then
-    player:getComponent("HealthComponent"):decreaseHealth(10)
   elseif key == "tab" then -- Debug View
     luis.showGrid = not luis.showGrid
     luis.showLayerNames = not luis.showLayerNames
     luis.showElementOutlines = not luis.showElementOutlines
+    overlayStats.isActive = not overlayStats.isActive
   else
     luis.keypressed(key)
     overlayStats.handleKeyboard(key) -- Should always be called last
